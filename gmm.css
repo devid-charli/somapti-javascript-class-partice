@@ -1,0 +1,73 @@
+header{
+    width: 90%;
+    background-color: black;
+    color: azure;
+    margin: 10px auto;
+}
+.navbar button{
+    width: 150px;
+    height: 75px;
+    margin: 20px auto;
+    background-color: aqua;
+    font-size: 33px;
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+.navbar ul li{
+    background-color: rgb(red, green, blue);
+    width: 160px;
+    border: 1px solid pink;
+    height: 70px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 80px;
+}
+.logo h2{
+    font-size: 35px;
+    color: brown;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar ul li:hover{
+    background-color: blueviolet;
+    transition: all ease-in 1.5s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover{
+    display: block;
+
+}
+.navbar button:hover{
+    background-color: red;
+    color: yellow;
+    font-size: 30px;
+}
+
+
+
+
+
+

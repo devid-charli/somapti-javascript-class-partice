@@ -1,0 +1,307 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+header{
+    width: 100%;
+    margin: 5px auto;
+    background-color: #151111;
+    color: beige;
+}
+.logo h2{
+    font-size: 25px;
+    color: rgb(63, 165, 42);
+    font-weight: bold;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li {
+    background-color: rgb(12, 215, 230);
+    width: 60px;
+    border: 1px solid rgb(4, 19, 108);
+    height: 25px;
+    text-align: center;
+    float: left;
+    color: rgb(124, 124, 105);
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 27px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: rgba(101, 81, 81, 0.66);
+    transition: all ease-in-out 1.5s;
+}
+.navbar ul ul{
+    display:none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+
+}
+.navbar button{
+    margin-left: 5px auto;
+    padding: 5px;
+    width: 150px;
+    height: 65px;
+    background-color: green;
+    font-size: 30px;
+}
+.navbar button:hover{
+    background-color: yellow;
+    color: coral;
+    font-size: 30px;
+}
+.form{
+    background-color: blueviolet;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 5%;
+    border: 2px dotted green;
+
+}
+form{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(10, 63, 24);
+    margin: 0px auto;
+    border-radius: 5%;
+    border-radius: 2px dotted black;
+    text-align: center;
+}
+form h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(228, 180, 122)
+    
+}
+form input{
+    background-color: rgb(129,222, 134);
+    padding: 10px;
+    margin: 3px;
+    font-size: 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+form .hhh{
+    padding: 8px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 95%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+ footer .name{
+    font-size: 33px;
+    margin: 30px auto;
+ }  
+footer .text{
+    width: 800px;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+div{
+    text-align: center;
+    font-size: 25px;
+}
+.box4 h1{
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    background-color: red;
+    
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: aquamarine;
+    }
+    header{
+        width: 100%;
+        margin: 5px auto;
+        background-color: #151111;
+        color: beige;
+    }
+    .logo h2{
+        text-align: center;
+        font-size: 15px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul{
+        list-style: none;
+    }
+    .navbar ul li {
+        background-color: rgb(12, 215, 230);
+        width: 60px;
+        border: 1px solid rgb(4, 19, 108);
+        height: 25px;
+        text-align: center;
+        float: left;
+        color: rgb(124, 124, 105);
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        line-height: 27px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul li:hover{
+        background-color: rgba(101, 81, 81, 0.66);
+        transition: all ease-in-out 1.5s;
+    }
+    .navbar ul ul{
+        display:none;
+    }
+    .navbar ul li:hover > ul{
+        display: block;
+    
+    }
+    .navbar button {
+        margin-left: 5px;
+        padding: 5px;
+        width: 63px;
+        height: 30px;
+        background-color: green;
+        font-size: 13px;
+    }
+    .navbar button:hover{
+        background-color: yellow;
+        color: coral;
+        font-size: 14px;
+    }
+    .form{
+        background-color: blueviolet;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 60px;
+        margin: 0 auto;
+        border-radius: 5%;
+        border: 2px dotted green;
+    
+    }
+    form{
+        width: 500px;
+        height: 450px;
+        background-color: rgb(10, 63, 24);
+        margin: 0px auto;
+        border-radius: 5%;
+        border-radius: 2px dotted black;
+        text-align: center;
+    }
+    form h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(228, 180, 122)
+        
+    }
+    form input{
+        background-color: rgb(129,222, 134);
+        padding: 10px;
+        margin: 3px;
+        font-size: 15px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    form .hhh{
+        padding: 8px 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        width: 95%;
+        background-color:black;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+     footer .name{
+        font-size: 33px;
+        margin: 30px auto;
+     }  
+    footer .text{
+        width: 800px;
+        font-size: 22px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        font-weight: 500px;
+        margin-top: 30px;
+    }
+    div{
+        text-align: center;
+        font-size: 25px;
+    }
+    .box4 h1{
+        height: 200px;
+        width: 200px;
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        background-color: red;
+        
+    }
+
+}

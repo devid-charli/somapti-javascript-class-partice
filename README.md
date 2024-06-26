@@ -1,0 +1,1 @@
+# somapti-javascript-class-partice
